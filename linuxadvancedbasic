@@ -1,0 +1,11 @@
+1.The nohup command is used to run another command in the background without hanging up, meaning it keeps running even after you log out or close the terminal.
+
+sheroon$ nohup python3 my_script.py > output.log 2>&1 &
+
+> output.log → Redirects standard output to output.log.
+
+2>&1 → Redirects standard error to standard output.
+
+& → Runs it in the background.
+
+#################################
